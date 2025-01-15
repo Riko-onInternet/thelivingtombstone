@@ -1,0 +1,68 @@
+.swiper-button-next,
+.swiper-button-prev {
+  margin: 0 15px;
+}
+
+/* Black */
+.mod-black .swiper-button-next,
+.mod-black .swiper-button-prev {
+  display: none;
+  color: #000;
+}
+
+@media (min-width: 992px) {
+  .mod-black .swiper-button-next,
+  .mod-black .swiper-button-prev {
+    display: block;
+  }
+}
+
+html[class="dark"] .mod-black .swiper-pagination-bullet-active,
+html[class="dark"] .mod-black .swiper-pagination-bullet {
+  background: var(--riko-primary) !important;
+}
+
+
+html[class="dark"] .mod-black .swiper-button-next,
+html[class="dark"] .mod-black .swiper-button-prev {
+  color: var(--riko-primary) !important;
+}
+
+.mod-black .swiper-pagination-bullet-active {
+  background: #000 !important;
+  transition: all ease 0.4s;
+}
+
+/* ---- White ----- */
+.mod-white .swiper-button-next,
+.mod-white .swiper-button-prev {
+  display: none;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .mod-white .swiper-button-next,
+  .mod-white .swiper-button-prev {
+    display: block;
+  }
+}
+
+.mod-white .swiper-pagination-bullet {
+  background-color: #fff;
+}
+
+html[class="dark"] .mod-white .swiper-pagination-bullet-active,
+html[class="dark"] .mod-white .swiper-pagination-bullet {
+  background: var(--riko-primary) !important;
+}
+
+
+html[class="dark"] .mod-white .swiper-button-next,
+html[class="dark"] .mod-white .swiper-button-prev {
+  color: var(--riko-primary) !important;
+}
+
+.mod-white .swiper-pagination-bullet-active {
+  background: #fff !important;
+  transition: all ease 0.4s;
+}
